@@ -62,7 +62,6 @@ function sobreMim(){
     }  
 
 
-
     botao.forEach((event,index)=>{
         event.addEventListener('click', ()=>{
             slideShow(index)
