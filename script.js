@@ -99,31 +99,31 @@ buttonGeral.forEach((event,index)=>{
         removeClick(index)
     })
 })
-
+    /* MEUS PROJETOS*/
 function showLista(lista, buttom = "all"){
     lista.forEach((item)=>{
         item.classList.remove('ativo');
     });
 
     if(buttom == 'design'){
-        lista[0].classList.add('ativo')
-        lista[1].classList.add('ativo')
+        lista[0].classList.add('ativo');
+        lista[1].classList.add('ativo');
     }
-    if(buttom == 'graphic'){
+    if(buttom == 'graphic'){        
         lista[2].classList.add('ativo');
-        lista[3].classList.add('ativo');
+        lista[4].classList.add('ativo');
+        lista[5].classList.add('ativo');
     }
 
     if(buttom == 'website'){
-        lista[4].classList.add('ativo');
-        lista[5].classList.add('ativo');
+        lista[3].classList.add('ativo');        
         lista[6].classList.add('ativo');
         lista[7].classList.add('ativo');
     }
 
     if(buttom == 'all'){
-        lista[0].classList.add('ativo')
-        lista[1].classList.add('ativo')
+        lista[0].classList.add('ativo');
+        lista[1].classList.add('ativo');
         lista[2].classList.add('ativo');
         lista[3].classList.add('ativo');
         lista[4].classList.add('ativo');
@@ -155,4 +155,5 @@ buttonGeral.forEach((item)=>{
         }
     });
 });
+/*FIM DOS MEUS PROJETOS*/
 
