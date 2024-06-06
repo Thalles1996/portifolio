@@ -379,6 +379,7 @@ main .sobre {
     align-content: center;
     height: 300px;
     background-color: #222;
+    overflow-y: auto;
 }
 
 .my_services ul li i {
